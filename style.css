@@ -1,0 +1,584 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Bebas Neue;
+	font-size: 30px;
+}
+
+.container{
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container2{
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.banner1{
+	
+	background: url(https://i.pinimg.com/originals/36/c1/94/36c19446d136cae841ca529bd48f6648.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.banner{
+	height: 400px;
+	background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/7f44b98a-ab16-4b8e-9d44-3258863d1d8e/d35nitz-296c14a8-9a0a-41dc-870e-0d248a7a0249.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzdmNDRiOThhLWFiMTYtNGI4ZS05ZDQ0LTMyNTg4NjNkMWQ4ZVwvZDM1bml0ei0yOTZjMTRhOC05YTBhLTQxZGMtODcwZS0wZDI0OGE3YTAyNDkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.T0S5ZUNFvtqvRM_AdCkPj_UmKJ30G5WFqN9nKPYcLxQ);
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+
+
+.text-banner{
+	text-align: center;
+	color: white;
+	font-size: 200px;
+	padding-top: 80px;
+	font-family: Creepster  ;
+}
+
+.text-banner2{
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	font-family: Creepster  ;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px;
+  }
+
+.flex-header{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+}
+
+.menu-titre{
+	color: white;
+
+}
+
+
+.pages{
+	list-style: none;
+	display: flex;
+	padding-top: 30px;
+}
+
+.pages li{
+	margin-left: 30px;
+	
+}
+
+.pages2{
+	list-style: none;
+	display: block;
+	padding-top: 30px;
+}
+
+.dropdown{
+	list-style: none;
+	position: absolute;
+	top: 50%;
+	left: 90px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 1s;
+}
+
+.pages li:hover{
+	background: mediumvioletred;
+}
+
+.pages li:hover .dropdown{
+	background: mediumvioletred;
+	width: 180px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.link{
+	color: white;
+}
+
+
+
+ .textbox-1{
+ 	padding: 80px;
+ 	display: flex;
+ 	gap: 50px;
+ }
+
+  .textbox-2{
+  	height: 600px;
+ 	padding: 70px;
+ 	display: flex;
+ 	gap: 50px;
+ 	text-align: center;
+ }
+
+.textbox-1 h2{
+	padding-bottom: 50px;
+}
+
+
+
+
+.gauche{
+	width: 45%;
+}
+ 
+.droite{
+	width: 45%;
+	background: url(logo5.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.droite2{
+	width: 50%;
+	background: url(cover.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+ .videoclip-banner{
+ 	height: 700px;
+ 	background: black;
+ 	color: white;
+ 	text-align: center;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+ .videoclip-banner h1{
+ 	padding-top: 50px;
+ 	font-family: Creepster;
+ }
+
+ .videoclip-banner p{
+ 	padding: 30px;
+ 	font-size: 22px;
+ }
+
+ .lookbook{
+ 	padding-top: 70px;
+ 	padding-bottom: 160px;
+
+ }
+
+ .lookbook-titre{
+ 	padding-top: 70px;
+ 	padding-bottom: 30px;
+ 	text-align: center;
+ 	font-size: 60px;
+ }
+
+  .lookbook-titre2{
+ 	padding-top: 40px;
+ 	padding-bottom: 150px;
+ 	text-align: center;
+ 	font-size: 30px;
+ }
+
+.lookbook-grid{
+	display: grid;
+	grid-template-columns: 200px 200px 200px ;
+	grid-template-rows: 200px 200px 200px;
+	grid-column-gap: 150px;
+	grid-row-gap: 280px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.img-lookbook1{
+	background: url(img-gboy1.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook2{
+	background: url(img-noah2.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+.img-lookbook3{
+	background: url(img-lili1.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook4{
+	background: url(img-noah4.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook5{
+	background: url(img-centre1.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook6{
+	background: url(img-gboy3.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+
+.img-lookbook7{
+	background: url(img-gboy2.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook8{
+	background: url(img-noah1.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook9{
+	background: url(img-lili2.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook10{
+	background: url(img-noah5.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook11{
+	background: url(img-centre2.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook12{
+	background: url(img-gboy5.jpg);
+	background-size: cover;
+	background-position: center;
+	border: 6px solid black;
+	height: 260px;
+	transition: transform .2s;
+}
+
+.img-lookbook1:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook2:hover{
+	transform: scale(2.1);
+}
+
+
+.img-lookbook3:hover{
+	transform: scale(2.1);
+}
+
+
+.img-lookbook4:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook5:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook6:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook7:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook8:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook9:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook10:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook11:hover{
+	transform: scale(2.1);
+}
+
+.img-lookbook12:hover{
+	transform: scale(2.1);
+}
+
+
+
+
+.footer{
+	height: 300px;
+	padding-top: 50px;
+	padding-bottom: 80px;
+	background: black ;
+}
+
+
+
+.button {
+  background-color: white;
+  border: 2px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  color: black;
+}
+
+.button-streaming {
+	padding-bottom: 40px;
+}
+
+.button2 {
+  background-color: transparent;
+  border: 6px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  align-items: center;
+}
+
+.button2:hover{
+	background: #FC46AA;
+}
+
+.streaming-links{
+	padding: 80px;
+	text-align: center;
+}
+
+.streaming-links h2{
+	padding-bottom: 60px;
+}
+
+.contact-section {
+	padding: 80px;
+	text-align: center;
+}
+
+.contact-section h2{
+	padding-bottom: 40px;
+}
+
+.contact-section h4{
+	padding-top: 40px;
+}
+
+.text-footer h2{
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+
+.textbox-1{
+	display: inline-block;
+}
+
+.gauche{
+	width: 100%;
+	text-align: center;
+}
+
+.droite{
+	visibility: hidden;
+}
+
+.lookbook-grid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	align-items: center;
+
+}
+
+.img-lookbook1, .img-lookbook2, .img-lookbook3, .img-lookbook4,
+.img-lookbook5, .img-lookbook6, .img-lookbook7, .img-lookbook8,
+.img-lookbook9, .img-lookbook10, .img-lookbook11, .img-lookbook12{
+	height: 800px;
+	padding-bottom: 40px;
+	pointer-events: none;
+}
+
+}
+@media only screen and (max-width: 729px){
+
+.textbox-1{
+	display: inline-block;
+}
+
+.gauche{
+	width: 100%;
+	text-align: center;
+}
+
+.droite{
+	visibility: hidden;
+}
+
+.lookbook-grid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	align-items: center;
+
+}
+
+.img-lookbook1, .img-lookbook2, .img-lookbook3, .img-lookbook4,
+.img-lookbook5, .img-lookbook6, .img-lookbook7, .img-lookbook8,
+.img-lookbook9, .img-lookbook10, .img-lookbook11, .img-lookbook12{
+	height: 800px;
+	padding-bottom: 40px;
+	pointer-events: none;
+}
+
+}
+
+@media only screen and (min-width: 729px){
+
+.textbox-1{
+	display: inline-block;
+}
+
+.gauche{
+	width: 100%;
+	text-align: center;
+}
+
+.droite{
+	visibility: hidden;
+}
+
+.lookbook-grid{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+	align-items: center;
+
+}
+
+.img-lookbook1, .img-lookbook2, .img-lookbook3, .img-lookbook4,
+.img-lookbook5, .img-lookbook6, .img-lookbook7, .img-lookbook8,
+.img-lookbook9, .img-lookbook10, .img-lookbook11, .img-lookbook12{
+	height: 800px;
+	padding-bottom: 200px;
+	pointer-events: none;
+}
+
+}
+
+@media only screen and (min-width: 1025px){
+
+.textbox-1{
+	display: flex;
+}
+
+.gauche{
+	width: 45%;
+}
+
+.droite{
+	width: 45%;
+	visibility: visible;
+}
+
+.lookbook-grid{
+	display: grid;
+	grid-template-columns: 200px 200px 200px ;
+	grid-template-rows: 200px 200px 200px;
+	grid-column-gap: 150px;
+	grid-row-gap: 280px;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.img-lookbook1, .img-lookbook2, .img-lookbook3, .img-lookbook4,
+.img-lookbook5, .img-lookbook6, .img-lookbook7, .img-lookbook8,
+.img-lookbook9, .img-lookbook10, .img-lookbook11, .img-lookbook12{
+	height: 260px;
+	padding-bottom: 60px;
+	pointer-events: auto;
+}
+
+}
+
+
